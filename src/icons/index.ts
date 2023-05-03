@@ -1,3 +1,3 @@
 import { LogoIcon } from "./logo.icon";
-
-export { LogoIcon };
+import { VectorIcon } from "./vector.icon";
+export { LogoIcon, VectorIcon };

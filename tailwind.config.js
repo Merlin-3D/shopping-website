@@ -8,9 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        brand: "url('/assets/banner_image.png')",
       },
     },
     extend: {
@@ -19,7 +17,9 @@ module.exports = {
         200: "#FFFFFF",
         300: "#000000",
         400: "#C2C8DA",
+        450: "#F4F6F5",
         500: "#242323",
+        550: "#191818",
       },
     },
   },

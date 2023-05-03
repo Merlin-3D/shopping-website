@@ -35,7 +35,7 @@ export default function Header() {
               <Link
                 href={item.href}
                 key={index}
-                className="mr-5 text-xl font-medium text-500"
+                className="mr-10 text-xl font-medium text-500"
               >
                 {item.name}
               </Link>

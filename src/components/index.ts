@@ -1,3 +1,4 @@
 import { Button } from "./button";
+import { ProductShopp } from "./product-shopp";
 
-export { Button };
+export { Button, ProductShopp };

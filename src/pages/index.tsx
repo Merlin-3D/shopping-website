@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Banner, Brand, Header, NewArrival, PayDay } from "./blocks";
+import { Banner, Brand, Favorite, Header, NewArrival, PayDay } from "./blocks";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -12,6 +12,7 @@ export default function Home() {
       <Brand />
       <NewArrival />
       <PayDay />
+      <Favorite />
     </main>
   );
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function PayDay() {
   return (
-    <section className="">
+    <section>
       <div className="bg-100 w-full  flex flex-row items-center justify-between">
         <Image
           key={"soutien"}
